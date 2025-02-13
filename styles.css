@@ -1,0 +1,26 @@
+body{
+    background-color: chartreuse;
+}
+nav{
+    background-color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}*/
+.logo{
+    display: inline;
+
+}
+.nav-links{
+    /*display: flex;*/
+
+}
+li{
+    list-style: none;
+    
+}
