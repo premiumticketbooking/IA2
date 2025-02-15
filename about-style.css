@@ -1,0 +1,173 @@
+
+/*section 2 about*/
+
+
+
+#about{
+    position: relative;
+    top: 54px;
+
+    scroll-margin-top: 70px; /* This adds an 70px gap when scrolling */
+    padding-bottom: 90px;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+        /* Play button container */
+        .play-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+            background-color: #1977cc;
+            border-radius: 50%;
+            position: absolute;
+            left: 390px;
+            top: 240px;
+            text-decoration: none;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Play icon (Triangle) */
+        .play-button::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-40%, -50%);
+            width: 0;
+            height: 0;
+            border-left: 20px solid white;
+            border-top: 12px solid transparent;
+            border-bottom: 12px solid transparent;
+        }
+
+        /* Hover Effect */
+        .play-button:hover {
+            transform: scale(1.1);
+        }
+
+        /* Pulsating Animation */
+        .play-button::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-color: #1977cc;
+            animation: pulse 1.5s infinite;
+        }
+
+        /* Keyframes for the pulse effect */
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 0.6;
+            }
+            50% {
+                transform: scale(1.5);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 0;
+            }
+        }
+
+#about-img1{
+    width: 640px;
+    height: 420px;
+}
+
+#about-div1{
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-top: 65px;
+}
+#about-div div h3{
+    font-size: 32px;
+    font-weight: 700;
+    color: #2C4964;
+    padding-top: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+#about-div div h5{
+    font-size: 18px;
+    font-weight: 700;
+    color: #2C4964;
+    margin-bottom:8px ;
+}
+#about-div div p{
+    font-size: 15px ;
+    color: #444444;
+    margin-bottom: 16px;
+    line-height: 23px;
+    margin-top: 10px;
+}
+#about-div div i{
+    font-size: 48px;
+    color: #1977cc;
+}
+/*1*/
+#about-div2 div #i-1{
+    position: absolute;
+    left: 790px;
+    top: 220px;
+}
+#about-div2 div #about-h5-1{
+    position: absolute;
+    left: 860px;
+    top: 190px;
+
+} 
+#about-div3 div #about-p1{
+    position: absolute;
+    left:860px;
+    top:235px;
+    margin-right: 7%;
+}
+/*2*/
+#about-div2 div #i-2{
+    position: absolute;
+    left: 787px;
+    top: 315px;
+}
+#about-div2 div #about-h5-2{
+    position: absolute;
+    left: 860px;
+    top: 285px;
+
+} 
+#about-div3 div #about-p2{
+    position: absolute;
+    left:860px;
+    top:330px;
+    margin-right: 7%;
+}/*3*/
+#about-div2 div #i-3{
+    position: absolute;
+    left: 785px;
+    top: 430px;
+}
+#about-div2 div #about-h5-3{
+    position: absolute;
+    left: 860px;
+    top: 400px;
+
+} 
+#about-div3 div #about-p3{
+    position: absolute;
+    left:860px;
+    top:445px;
+    margin-right: 7%;
+}

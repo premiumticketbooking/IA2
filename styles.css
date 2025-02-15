@@ -102,7 +102,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: , sans-serif;
+    font-family:  sans-serif;
 
 }
 
@@ -128,7 +128,7 @@ a {
     position: absolute;
     background-color: #ffffff;
     padding: 10px;
-    width: 190px;
+    width: 195px;
 
     border-radius: 10px;
     /* Change this to your preferred color */
@@ -145,9 +145,7 @@ a {
     padding: 1px;
 }
 
-#sub-menu2 ul {
-    padding-top: ;
-}
+
 
 #sub-menu ul li:hover>#sub-menu2 {
     display: block;
@@ -276,8 +274,7 @@ a {
     color: #444444;
 }
 
-#home-container{
-}
+
 /*container 1*/
 #home-container1{
     height: 320px;
@@ -304,7 +301,7 @@ a {
     color: #ffffff;
     font-family: sans-serif;
     margin-bottom:30px ;
-    margin-left: ;
+
     line-height: 24px;
 
     
@@ -447,34 +444,4 @@ a {
     text-align: center;
     line-height: 23px;
 }
-
-
-
-
-
-
-
-
-/*section 2 about*/
-
-
-
-#about{
-    position: relative;
-    top: 54px;
-
-    scroll-margin-top: 70px; /* This adds an 70px gap when scrolling */
-
-}
-
-#about div{
-    background-color: #5395cf;
-    width: 200px;
-    height: 200px;
-}
-
-
-
-
-
 
