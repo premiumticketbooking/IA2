@@ -1,60 +1,136 @@
-#doctor-count{
-    margin-top:54px ;
+#doctors {
+    position: relative;
+    top: 0px;
 
+    scroll-margin-top: 70px;
+    /* This adds an 70px gap when scrolling */
 
-}
-#doctors-count-container{
-    background-color: #f1f7fc;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 90px;
-    padding-bottom: 70px;
-    padding-left: 7%;
-    padding-right: 7%;
-}
-.doctors-count-div1{
     background-color: #ffffff;
-    border-radius: 4px;
-    text-align: center ;
-    width: 300px;
-    height: 150px;
-    display: block;
-    align-items: center;
-    box-shadow: 0px 2px 35px rgba(0, 0, 0, 0.1);
 }
-.doctors-count-div1 div{
-    
-    background-color: #1977cc;
-    width: 54px;
-    height: 54px;
-    font-size: 24px;
-    position: relative;
-    border-radius: 50%;
-    position: relative;
-    left: 123px;
-    top: -27px;
-    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.185);
+
+#doctors {
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+#doctors1 {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+#doctors1 h2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #2c4964;
 
 }
-.doctors-count-div1 div i{
-    color: #ffffff;
-    position: relative;
-    top: 14px;
+
+#doctors1 span #span2 {
+    color: #1977cc;
+    font-weight: 500;
+    font-size: 50px;
+    position: absolute;
+    top: -38px;
+    left: 48px;
 }
-.doctors-count-div1 span{
-    font-size: 32px;
-    display: block;
-    margin: 10px 0;
-    font-weight: 700;
-    color: var(--heading-color);
-    color: #2c4964;
-    position: relative;
-    top: -13px;
+
+#doctors1 span {
+    position: absolute;
+    left: 680px;
+    top: 99px;
 }
-.doctors-count-div1 p{
+
+#doctors1 p {
     font-size: 16px;
     color: #444444;
-    position: relative;
-    top: -12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 50px;
 }
 
+#doctors-container1{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 8%;
+
+
+}
+.doc-1{
+    display: flex;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.185);
+    padding: 20px 35px;
+    border-radius: 5px;
+}
+
+.doc-2{
+    margin-left: 20px;
+}
+
+.doc-2 h4{
+    font-size: 20px;
+    color: #2c4964;
+    margin-top: 8px;
+    margin-bottom: 7px;
+
+}
+.doc-2 span{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #444444;
+    margin-top: 0%;
+}
+.doc-2 p{
+    font-size: 14px;
+    color: #444444;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 27px;
+}
+.social a i{
+    color: rgb(68, 65, 65);
+
+}
+.social{
+    margin-top: 30px;
+}
+.social a {
+    width: 50px;
+    height: 50px;
+    background-color: #44444428;
+    border-radius: 50%;
+    margin: 3px;
+    padding: 10px;
+    margin-top: 10px;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+
+
+}
+.social a:hover{
+    background-color: #1977cc;
+}
+
+.social a:hover>i{
+    color: #ffffff;
+}
+
+#doctors-container2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7%;
+    margin-right: 8%;
+    margin-top: 20px;
+
+}
+.doc-1{
+
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 0.5s;
+
+}
+.doc-1:hover{
+    transform: translateY(-10px);
+}
