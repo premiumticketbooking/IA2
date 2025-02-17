@@ -1,0 +1,155 @@
+#contact {
+    position: relative;
+    top: 0px;
+
+    scroll-margin-top: 70px;
+
+
+    background-color: #ffffff;
+}
+
+#contact {
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+#contact-contaniner1 {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+#contact-contaniner1 h2 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #2c4964;
+
+}
+
+#contact-contaniner1 span #span2 {
+    color: #1977cc;
+    font-weight: 500;
+    font-size: 50px;
+    position: absolute;
+    top: -38px;
+    left: 48px;
+}
+
+#contact-contaniner1 span {
+    position: absolute;
+    left: 680px;
+    top: 99px;
+}
+
+#contact-contaniner1 p {
+    font-size: 16px;
+    color: #444444;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 50px;
+}
+
+.contact-sub-container{
+    display: flex;
+    margin-left:7% ;
+}
+
+.contact-logo{
+    margin-top: 30px;
+    margin-bottom: 6px;
+}
+#contact-content1{
+    width: 250px;
+}
+
+#contact-container3 i{
+        font-size: 20px;
+        background-color: #1977cc;
+        padding: 13px;
+        border-radius: 50%;
+        color: white;
+        margin-right: 20px;
+        
+    
+}
+.contact-sub-container h3{
+    font-size: 18px;
+    color: #2c4964;
+}
+.contact-sub-container p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    margin-top: -15px;
+}
+
+
+
+
+
+input:focus {
+    border-color: #1979cc8c;
+    /* Change border color on focus */
+
+}
+
+select option:first-child {
+    font-size: 18px;
+    /* Increase placeholder size */
+    color: gray;
+    /* Change placeholder text color */
+}
+
+#contact-container2 {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 7%;
+    margin-right: 9%;
+    margin-top: 30px;
+}
+
+#contact-container5 input {
+    width: 400px;
+    height: 45px;
+    color: black;
+
+    outline-color: #1979ccaf;
+    margin-left: px;
+    
+}
+#contact-container5{
+    margin-left: 142px;
+}
+#contact-container6{
+    margin-left: 142px;
+}
+#contact-container8{
+    width: 800px;
+    height: 45px;
+}
+#contact-container5{
+    display: flex;
+    gap: 20px;
+}
+#contact-container6 input{
+    width: 826px;
+    height: 45px;
+    color: black;
+
+    outline-color: #1979ccaf;
+    margin-top: 22px;
+
+}
+
+
+#contact-container7{
+    margin-left: 71px;
+    width: 72%;
+}
+#contact-container4{
+    margin-right: 400px;
+}
+#button-container{
+    margin-left: -265px;
+    margin-top: 24px;
+}
